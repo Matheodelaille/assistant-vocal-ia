@@ -1,14 +1,44 @@
 # Python
 __pycache__/
 *.py[cod]
-*.env
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environnements
 venv/
 env/
+ENV/
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
 # Audio
 *.wav
 *.mp3
+*.m4a
+*.ogg
 
-# API Keys
+# Clés API
 api_keys.txt
 secrets.txt
+keys.json
+credentials.json
+
+# Streamlit
+.streamlit/
+
+# Système
+.DS_Store
+Thumbs.db
